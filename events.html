@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riverbend Yoga Studio | Workshops and Events</title>
+</head>
+<body>
+
+<header>
+    <h1>Workshops and Events</h1>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Classes and Services</a></li>
+            <li><a href="about.html">About Our Studio</a></li>
+            <li><a href="events.html">Workshops and Events</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Monthly Workshops</h2>
+
+        <p>
+            Riverbend Yoga Studio offers monthly workshops focused on breathing,
+            mobility, relaxation, and guided yoga practice.
+        </p>
+
+        <h3>Guided Breathing Practice</h3>
+
+        <audio controls>
+            <source src="media/yoga-breathing_c.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            This audio contains a short guided breathing exercise.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Request a Spot</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Class or Event Interest</legend>
+
+                <label for="interest">Select your interest:</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Choose an option</option>
+                    <option value="gentle">Gentle Yoga</option>
+                    <option value="vinyasa">Vinyasa Yoga</option>
+                    <option value="restorative">Restorative Yoga</option>
+                    <option value="workshop">Monthly Workshop</option>
+                    <option value="private">Private Session</option>
+                </select>
+
+                <br><br>
+
+                <label for="experience">Experience level:</label>
+                <select id="experience" name="experience" required>
+                    <option value="">Choose an option</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="some">Some Experience</option>
+                    <option value="regular">Regular Practitioner</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+
+                <input
+                    type="radio"
+                    id="contact-email"
+                    name="contact-method"
+                    value="email"
+                    required>
+                <label for="contact-email">Email</label>
+
+                <input
+                    type="radio"
+                    id="contact-phone"
+                    name="contact-method"
+                    value="phone">
+                <label for="contact-phone">Phone</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+
+                <label for="message">Message:</label>
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    required></textarea>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Request a Spot</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Riverbend Yoga Studio</p>
+</footer>
+
+</body>
+</html>
